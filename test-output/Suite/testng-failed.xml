@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="prathyusha.ListenerDemo"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="prathyusha.ListenerTestTwo">
+        <methods>
+          <include name="LogoutTwo"/>
+        </methods>
+      </class> <!-- prathyusha.ListenerTestTwo -->
+      <class name="prathyusha.TestNGListenerTest">
+        <methods>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- prathyusha.TestNGListenerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
